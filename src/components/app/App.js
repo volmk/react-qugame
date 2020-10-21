@@ -8,7 +8,7 @@ class App extends Component {
         super(props);
         this.state = {
             gameOn: false,
-            title: 'Welcome to The Game'
+            title: 'Welcome to Qugame'
         }
         this.changeTitle = this.changeTitle.bind(this);
         this.startGame = this.startGame.bind(this);
@@ -26,7 +26,7 @@ class App extends Component {
     }
 
     exitGame(){
-        this.setState({gameOn: false, title: 'Welcome to The Game'})
+        this.setState({gameOn: false, title: 'Welcome to Qugame'})
     }
 
 
